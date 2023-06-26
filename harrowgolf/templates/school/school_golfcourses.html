@@ -1,0 +1,47 @@
+{% extends 'school/school_layout.html' %}
+
+{% block title %}Golf Courses Admin{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6">
+        <h1 class="mb-4">Golf Courses</h1>
+    </div>
+    <div class="col-md-6 text-end">
+        <a href="#" class="btn btn-success">Add Course</a>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead class="bg-info">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Tel</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in courses %}
+            <tr>
+                <td>{{ course.id }}</td>
+                <td>{{ course.course_name }}</td>
+                <td>{{ course.contact_person }}</td>
+                <td>{{ course.tel }}</td>
+                <td>
+                    <a href="#" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}

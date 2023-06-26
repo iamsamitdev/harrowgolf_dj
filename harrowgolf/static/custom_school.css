@@ -1,0 +1,51 @@
+.invalid-error {
+    color: salmon;
+    margin-top: 5px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.bg-light {
+    background-color: #02755c !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:10px;
+    background-color: gray;
+}
+
+.menu-bar {
+    height: 100vh;
+    background-color: teal;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 0px 15px 15px;
+}
+
+.list-group-flush>.list-group-item {
+    border-bottom: 1px dotted #fff;
+}
+
+.list-group-item a {
+    color: #fff;
+    text-decoration: none;
+}
