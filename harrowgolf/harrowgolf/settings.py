@@ -93,10 +93,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'harrowgolf',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'PORT': '3336',
+        'USER': 'samit',
+        'PASSWORD': 'Smk@123456',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
