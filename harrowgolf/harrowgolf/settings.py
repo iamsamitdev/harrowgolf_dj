@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-g67u&%gp)_zm4_4s)sy(bs4l@j^i&4i+2(rk7&-f)1*28n%52s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # URL for redirecting to login page
 LOGIN_REDIRECT_URL = 'student-home'
